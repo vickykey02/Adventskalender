@@ -23,7 +23,7 @@ const days = {
 	"2024-11-17": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag17.png",
 	"2024-11-18": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag18.png",
 	"2024-11-19": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag19.png",
-	"2024-11-20": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag20.png",
+	"2024-11-20": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag20.png",
 	"2024-11-21": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag21.png",
 	"2024-11-22": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag22.png",
 	"2024-11-23": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag23.png",
