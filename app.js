@@ -32,7 +32,7 @@ const days = {
 };
 
 // Funktion: Türchen anzeigen
-for (let i = 1; i <= 24; i++) {
+/*for (let i = 1; i <= 24; i++) {
 	//const today = new Date().toISOString().split('T')[0];
 	const today = new Date().toLocaleDateString('en-CA'); // Format YYYY-MM-DD
     const day = document.createElement('div');
@@ -51,7 +51,24 @@ for (let i = 1; i <= 24; i++) {
 
     day.textContent = date.getDate();
     calendar.appendChild(day);
+}*/
+for (const dateString in days) {
+    const today = new Date().toLocaleDateString('en-CA'); // Format YYYY-MM-DD
+    const day = document.createElement('div');
+    day.classList.add('day');
+
+    const date = new Date(dateString); // Datum direkt aus days
+    if (dateString <= today) {
+        day.classList.add('opened');
+        day.onclick = () => showContent(days[dateString]);
+    } else {
+        day.classList.add('locked');
+    }
+
+    day.textContent = date.getDate();
+    calendar.appendChild(day);
 }
+
 
 // Funktion: Inhalt anzeigen
 function showContent(content) {
