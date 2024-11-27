@@ -81,7 +81,7 @@ function showContent(content, dateString) {
 	};
 	modal.appendChild(closeButton);
 
-	if (String(dateString) === '2024-11-03') {
+	if (dateString==='2024-11-03') {
 		const linkButton = document.createElement('button');
 		linkButton.textContent = 'Link folgen';
 		linkButton.style.marginTop = '10px';
