@@ -4,7 +4,7 @@ const today = new Date().toISOString().split('T')[0]; // Heutiges Datum im Forma
 
 // Inhalte für die Tage
 const days = {
-    "2024-10-31": "https://github.com/vickykey02/Adventskalender/assets/Tag1.png",
+    "2024-10-31": "assets/Tag1.png",
 	"2024-12-01": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag2.png",
 	"2024-12-02": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag3.png",
 	"2024-12-03": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag4.png",
