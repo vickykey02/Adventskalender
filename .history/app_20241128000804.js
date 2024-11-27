@@ -83,17 +83,14 @@ function showContent(content, dateString) {
 
 	const targetDate = new Date('2024-11-03');
 	const currentDate = new Date(dateString);
-	console.log(currentDate.getTime(), targetDate.getTime());
-	console.log(dateString, today);
 
 
 	if (currentDate.getTime() === targetDate.getTime()) {
-		console.log('Das ist der 3. November');
 		const linkButton = document.createElement('button');
 		linkButton.textContent = 'Link folgen';
 		linkButton.style.marginTop = '10px';
 		linkButton.onclick = () => {
-			window.open('https://share.chessbase.com/SharedGames/game/?p=Dx/dxlliODx7kwlLJwlgbjxptLVH4zQ2/CPyLlPj2wFHepLeutlGwTSoz5lbABaj', '_blank');
+			window.open('https://share.chessbase.com/SharedGames/game/?p=Dx/dxlliODx7kwlLJwlgbjxptLVH4zQ2/CPyLlPj2wFHepLeutlGwTSoz5lbABaj, '_blank'');
 		};
 		modal.appendChild(linkButton);
 	}
