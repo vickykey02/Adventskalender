@@ -90,7 +90,7 @@ function showContent(content, dateString) {
 		linkButton.textContent = 'Link folgen';
 		linkButton.style.marginTop = '10px';
 		linkButton.onclick = () => {
-			window.open('https://share.chessbase.com/SharedGames/game/?p=Dx/dxlliODx7kwlLJwlgbjxptLVH4zQ2/CPyLlPj2wFHepLeutlGwTSoz5lbABaj');
+			window.location.href = 'https://share.chessbase.com/SharedGames/game/?p=Dx/dxlliODx7kwlLJwlgbjxptLVH4zQ2/CPyLlPj2wFHepLeutlGwTSoz5lbABaj';
 		};
 		modal.appendChild(linkButton);
 	}
