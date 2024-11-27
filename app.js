@@ -17,7 +17,7 @@ const days = {
 	"2024-12-10": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag11.png",
 	"2024-12-11": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag12.png",
 	"2024-12-12": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag13.png",
-    	"2024-10-13": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag14.png", 
+    	"2024-11-13": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag14.png", 
 	"2024-12-14": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag15.png",
 	"2024-12-15": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag16.png",
 	"2024-12-16": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag17.png",
@@ -37,7 +37,7 @@ for (let i = 1; i <= 24; i++) {
 	const today = new Date().toLocaleDateString('en-CA'); // Format YYYY-MM-DD
     const day = document.createElement('div');
     day.classList.add('day');
-    const date = new Date(new Date().getFullYear(), 10, i); // i-tes Datum des Jahres
+    const date = new Date(new Date().getFullYear(), 11, i); // i-tes Datum des Jahres
     const dateString = date.toISOString().split('T')[0];
 
     if (dateString in days) {
