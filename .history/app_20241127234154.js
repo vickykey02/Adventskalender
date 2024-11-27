@@ -81,7 +81,7 @@ function showContent(content, dateString) {
 	};
 	modal.appendChild(closeButton);
 
-	//if (dateString==='2024-11-03') {
+	if (dateString==='2024-11-03') {
 		const linkButton = document.createElement('button');
 		linkButton.textContent = 'Link folgen';
 		linkButton.style.marginTop = '10px';
@@ -89,7 +89,7 @@ function showContent(content, dateString) {
 			window.location.href = 'share.chessbase.com/SharedGames/game/?p=Dx/dxlliODx7kwlLJwlgbjxptLVH4zQ2/CPyLlPj2wFHepLeutlGwTSoz5lbABaj';
 		};
 		modal.appendChild(linkButton);
-	//}
+	}
 
 	document.body.appendChild(modal);
 
