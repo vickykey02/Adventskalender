@@ -81,15 +81,13 @@ function showContent(content) {
 	};
 	modal.appendChild(closeButton);
 
-	if (today<='2024-11-03') {
-		const linkButton = document.createElement('button');
-		linkButton.textContent = 'Link folgen';
-		linkButton.style.marginTop = '10px';
-		linkButton.onclick = () => {
-			window.location.href = 'share.chessbase.com/SharedGames/game/?p=Dx/dxlliODx7kwlLJwlgbjxptLVH4zQ2/CPyLlPj2wFHepLeutlGwTSoz5lbABaj';
-		};
-		modal.appendChild(linkButton);
-	}
+	const linkButton = document.createElement('button');
+	linkButton.textContent = 'Link folgen';
+	linkButton.style.marginTop = '10px';
+	linkButton.onclick = () => {
+		window.location.href = content;
+	};
+	modal.appendChild(closeButton);
 
 	document.body.appendChild(modal);
 
