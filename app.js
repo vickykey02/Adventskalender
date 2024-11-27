@@ -52,22 +52,25 @@ const days = {
     day.textContent = date.getDate();
     calendar.appendChild(day);
 }*/
+// Schleife durch die definierten Tage im 'days'-Objekt
 for (const dateString in days) {
     const today = new Date().toLocaleDateString('en-CA'); // Format YYYY-MM-DD
     const day = document.createElement('div');
     day.classList.add('day');
 
-    const date = new Date(dateString); // Datum direkt aus days
+    const date = new Date(dateString); // Datum direkt aus 'dateString'
     if (dateString <= today) {
         day.classList.add('opened');
-        day.onclick = () => showContent(days[dateString]);
+        day.onclick = () => showContent(days[dateString]); // Inhalt anzeigen
     } else {
         day.classList.add('locked');
     }
 
+    // Setze die Anzeige für das Türchen (Tag des Monats)
     day.textContent = date.getDate();
     calendar.appendChild(day);
 }
+
 
 
 // Funktion: Inhalt anzeigen
