@@ -144,7 +144,7 @@ function showContent(content, dateString) {
 		linkButton.textContent = 'zum Lesestoff';
 		linkButton.style.marginTop = '10px';
 		linkButton.onclick = () => {
-			window.open('https://www.youtube.com/watch?v=Bo0son9ZMdI', '_blank');
+			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/Rezept_Julscheidt.pdf', '_blank');
 		};
 		modal.appendChild(linkButton);
 	}

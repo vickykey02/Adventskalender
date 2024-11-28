@@ -127,24 +127,7 @@ function showContent(content, dateString) {
 		linkButton.textContent = 'zum Lesestoff';
 		linkButton.style.marginTop = '10px';
 		linkButton.onclick = () => {
-			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/Rezept_Julscheidt.pdf', '_blank');
-		};
-		modal.appendChild(linkButton);
-	}
-
-	const targetDate10 = new Date('2024-11-10');
-	const currentDate10 = new Date(dateString);
-	console.log(currentDate10.getTime(), targetDate10.getTime());
-	console.log(dateString, today);
-
-
-	if (currentDate10.getTime() === targetDate10.getTime()) {
-		console.log('Das ist der 10. November');
-		const linkButton = document.createElement('button');
-		linkButton.textContent = 'zum Lesestoff';
-		linkButton.style.marginTop = '10px';
-		linkButton.onclick = () => {
-			window.open('https://www.youtube.com/watch?v=Bo0son9ZMdI', '_blank');
+			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/', '_blank');
 		};
 		modal.appendChild(linkButton);
 	}
