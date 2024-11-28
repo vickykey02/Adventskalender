@@ -111,7 +111,7 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    /*overflow: hidden; /* Verhindert das Überlappen der Pseudo-Elemente */
+    overflow: hidden; /* Verhindert das Überlappen der Pseudo-Elemente */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
     z-index: 10;
 }
@@ -148,7 +148,7 @@ h1 {
 }
 
 /* Schleifen-Dekoration */
-.gift-button span {
+.gift-button::span {
     position: absolute;
     width: 30px;
     height: 15px;
@@ -164,8 +164,3 @@ h1 {
     transform: translateX(-50%) rotate(-45deg);
     z-index: 1000;
 }
-.modal {
-    position: relative;
-    z-index: 100;
-}
-

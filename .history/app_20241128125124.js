@@ -15,8 +15,8 @@ const days = {
 	"2024-11-09": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag9.png",
 	"2024-11-10": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag10.png",
 	"2024-11-11": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag11.png",
-	"2024-11-12": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag12.png",
-	"2024-11-13": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag13.png",
+	"2024-11-12": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag12.png",
+	"2024-11-13": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag13.png",
     "2024-11-14": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag14.png", 
 	"2024-11-15": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag15.png",
 	"2024-11-16": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag16.png",
@@ -110,9 +110,8 @@ function showContent(content, dateString) {
 		console.log('Das ist der 7. November');
 		const linkButton7 = document.createElement('button');
 		linkButton7.innerHTML = `<p>zum Lesestoff</p>`; // Text als separates HTML-Element
-		linkButton7.innerHTML.zIndex = '1000';
 		//linkButton7.textContent = 'zum Lesestoff';
-		//linkButton7.textContent.zIndex = '1000';
+		linkButton7.textContent.zIndex = '1000';
 		//linkButton7.style.marginTop = '';//statt 10px
 		linkButton7.classList.add('gift-button'); // Klasse aus CSS hinzufügen
 		linkButton7.onclick = () => {
@@ -160,44 +159,6 @@ function showContent(content, dateString) {
 		modal.appendChild(linkButton10);
 	}
 
-	const targetDate12 = new Date('2024-11-12');
-	const currentDate12 = new Date(dateString);
-	console.log(currentDate12.getTime(), targetDate12.getTime());
-	console.log(dateString, today);
-
-
-	if (currentDate12.getTime() === targetDate12.getTime()) {
-		console.log('Das ist der 12. November');
-		const linkButton12 = document.createElement('button');
-		linkButton12.textContent = 'zum Rezept';
-		linkButton12.style.position = 'absolute';
-		linkButton12.style.top = '50%';
-		linkButton12.style.left = '50%';
-		linkButton12.style.transform = 'translate(-50%, -50%)';
-		linkButton12.style.marginTop = '10px';
-		linkButton12.onclick = () => {
-			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/Yule_Spell.pdf', '_blank');
-		};
-		modal.appendChild(linkButton12);
-	}
-
-	const targetDate13 = new Date('2024-11-13');
-	const currentDate13 = new Date(dateString);
-	console.log(currentDate13.getTime(), targetDate13.getTime());
-	console.log(dateString, today);
-
-
-	if (currentDate13.getTime() === targetDate13.getTime()) {
-		console.log('Das ist der 13. November');
-		const linkButton13 = document.createElement('button');
-		linkButton13.textContent = 'Link folgen';
-		//linkButton3.style.marginTop = '10px';
-		linkButton13.classList.add('button2'); // Klasse aus CSS hinzufügen
-		linkButton13.onclick = () => {
-			window.open('https://www.oxfam.de/blog/internationaler-frauentag-feminist-power', '_blank');
-		};
-		modal.appendChild(linkButton13);
-	}
 	document.body.appendChild(modal);
 
 	//hier dann noch rein dass Element erscheint hinter dem sich Spotifysong verbirgt

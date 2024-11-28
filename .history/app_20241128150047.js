@@ -15,8 +15,8 @@ const days = {
 	"2024-11-09": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag9.png",
 	"2024-11-10": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag10.png",
 	"2024-11-11": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag11.png",
-	"2024-11-12": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag12.png",
-	"2024-11-13": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag13.png",
+	"2024-11-12": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag12.png",
+	"2024-11-13": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag13.png",
     "2024-11-14": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag14.png", 
 	"2024-11-15": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag15.png",
 	"2024-11-16": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag16.png",
@@ -194,7 +194,7 @@ function showContent(content, dateString) {
 		//linkButton3.style.marginTop = '10px';
 		linkButton13.classList.add('button2'); // Klasse aus CSS hinzufügen
 		linkButton13.onclick = () => {
-			window.open('https://www.oxfam.de/blog/internationaler-frauentag-feminist-power', '_blank');
+			window.open('https://share.chessbase.com/SharedGames/game/?p=Dx/dxlliODx7kwlLJwlgbjxptLVH4zQ2/CPyLlPj2wFHepLeutlGwTSoz5lbABaj', '_blank');
 		};
 		modal.appendChild(linkButton13);
 	}
