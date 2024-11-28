@@ -43,8 +43,8 @@ h1 {
     background: linear-gradient(45deg, #ff0000, #ff6347);
     border: 2px solid #fff;
     border-radius: 10px;
-    position: absolute;
-    left: 0;
+    position: fixed;
+    /*position: relative;*/
     font-size: 16px; /* Lesbare Schriftgröße */
     line-height: 1.5; /* Zeilenhöhe anpassen */
     color: black;

@@ -45,6 +45,7 @@ h1 {
     border-radius: 10px;
     position: absolute;
     left: 0;
+    bottom: -50;
     font-size: 16px; /* Lesbare Schriftgröße */
     line-height: 1.5; /* Zeilenhöhe anpassen */
     color: black;

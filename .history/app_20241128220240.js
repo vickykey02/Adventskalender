@@ -76,7 +76,7 @@ function showContent(content, dateString) {
 	const closeButton = document.createElement('button');
 	//const closeText = document.createElement('button::before');
 	closeButton.title = 'Close';
-	closeButton.classList.add('button'); // Klasse aus CSS hinzufügen
+	closeButton.classList.add('gift-button'); // Klasse aus CSS hinzufügen
 	closeButton.textContent = 'Close';
 	closeButton.textContent.style = 'color: white';
 	//closeText.classList.add('button::before');

@@ -76,13 +76,13 @@ function showContent(content, dateString) {
 	const closeButton = document.createElement('button');
 	//const closeText = document.createElement('button::before');
 	closeButton.title = 'Close';
-	closeButton.classList.add('button'); // Klasse aus CSS hinzufügen
+	closeButton.classList.add('gift-button'); // Klasse aus CSS hinzufügen
 	closeButton.textContent = 'Close';
-	closeButton.textContent.style = 'color: white';
+	closeButton.textContent.backgroundColor = 'white';
 	//closeText.classList.add('button::before');
 	//closeText.textContent = 'Close';
 	//closeButton.textContent = 'zurück';
-	closeButton.textContent.zIndex = '2001'; // Schrift eine Ebene nach vorn schieben
+	closeButton.style.zIndex = '2001'; // Schrift eine Ebene nach vorn schieben
 	//closeButton.style.marginTop = '10px';
 	closeButton.onclick = () => {
 		document.body.removeChild(modal);
