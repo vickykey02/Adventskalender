@@ -74,14 +74,12 @@ function showContent(content, dateString) {
 	modal.appendChild(img);
 
 	const closeButton = document.createElement('button');
-	const closeText = document.createElement('button::before');
+	const closeText = document.createElement('button-')
 	//closeButton.textContent = 'Close';
 	closeButton.title = 'Close';
 	closeButton.classList.add('button'); // Klasse aus CSS hinzufügen
-	closeText.classList.add('button::before');
-	closeText.textContent = 'Close';
-	//closeButton.textContent = 'zurück';
-	//closeButton.style.zIndex = '1001'; // Schrift eine Ebene nach vorn schieben
+	closeButton.textContent = 'zurück';
+	closeButton.style.zIndex = '1001'; // Schrift eine Ebene nach vorn schieben
 	//closeButton.style.marginTop = '10px';
 	closeButton.onclick = () => {
 		document.body.removeChild(modal);
