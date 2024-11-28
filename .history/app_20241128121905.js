@@ -75,8 +75,7 @@ function showContent(content, dateString) {
 
 	const closeButton = document.createElement('button');
 	closeButton.textContent = 'Close';
-	closeButton.classList.add('button'); // Klasse aus CSS hinzufügen
-	//closeButton.style.marginTop = '10px';
+	closeButton.style.marginTop = '10px';
 	closeButton.onclick = () => {
 		document.body.removeChild(modal);
 	};
