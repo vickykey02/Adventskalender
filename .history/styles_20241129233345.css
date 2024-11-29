@@ -20,7 +20,7 @@ h1 {
     margin: 10 px auto;
 }
 .day {
-    background-color: #ad1426(255, 0, 0, 0.8); /* Weihnachtliches Rot neu ab hier */
+    background-color: rgba(187, 27, 27, 0.8); /* Weihnachtliches Rot neu ab hier */
     color: white; /* Textfarbe */
     border: 2px solid gold; /* Goldener Rahmen */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Schattierung */
