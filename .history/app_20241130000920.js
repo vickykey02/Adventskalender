@@ -1,7 +1,7 @@
 // Generiere die Kalender-Türchen
 const calendar = document.querySelector('.calendar');
 const today = new Date().toISOString().split('T')[0]; // Heutiges Datum im Format YYYY-MM-DD
-if ('serviceWorker' in navigator) { //neu ab hier PWA
+if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js')
         .then(registration => {
             console.log('Service Worker erfolgreich registriert:', registration);
@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator) { //neu ab hier PWA
             console.error('Service Worker Registrierung fehlgeschlagen:', error);
         });
 }
-//bis hier PWA
+
 
 // Inhalte für die Tage
 const days = {
