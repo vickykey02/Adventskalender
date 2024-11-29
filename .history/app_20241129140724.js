@@ -18,7 +18,7 @@ const days = {
 	"2024-11-12": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag12.png",
 	"2024-11-13": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag13.png",
     "2024-11-14": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag14.png", 
-	"2024-11-15": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag15.png",
+	"2024-11-15": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag15.png",
 	"2024-11-16": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag16.png",
 	"2024-11-17": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag17.png",
 	"2024-11-18": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag18.png",
@@ -26,7 +26,7 @@ const days = {
 	"2024-11-20": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag20.png",
 	"2024-11-21": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag21.png",
 	"2024-11-22": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag22.png",
-	"2024-11-23": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag23.png",
+	"2024-11-23": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag23.png",
 	"2024-11-24": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag24.png",
 
 };
@@ -258,7 +258,7 @@ function showContent(content, dateString) {
 		//linkButton10.style.marginTop = '10px';
 		linkButton23.classList.add('gift-button'); // Klasse aus CSS hinzufügen
 		linkButton23.onclick = () => {
-			window.open('https://www.youtube.com/watch?v=dOCt-Cj5w0g', '_blank');
+			window.open('https://www.youtube.com/watch?v=vfKryPSMrFo', '_blank');
 		};
 		modal.appendChild(linkButton23);
 	}
