@@ -20,7 +20,7 @@ const days = {
     "2024-11-14": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag14.png", 
 	"2024-11-15": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag15.png",
 	"2024-11-16": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag16.png",
-	"2024-11-17": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag17.png",
+	"2024-11-17": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag17.png",
 	"2024-11-18": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag18.png",
 	"2024-11-19": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag19.png",
 	"2024-11-20": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag20.png",
@@ -282,7 +282,7 @@ function showContent(content, dateString) {
 	const dayIndex = new Date().getDate() - 1; // Get the current day index (0-based)
 	const songUrl = songs[dayIndex % songs.length]; // Cycle through songs if more than available days
 	spotifyButton.textContent = 'Song des Tages';
-	spotifyButton.style.right = '40%';
+	spotifyButton.style.right = '80%';
 	spotifyButton.onclick = () => {
 		const spotifyIframe = document.createElement('iframe');
 		spotifyIframe.src = songUrl;
