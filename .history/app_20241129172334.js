@@ -254,12 +254,17 @@ function showContent(content, dateString) {
 	if (currentDate18.getTime() === targetDate18.getTime()) {
 		console.log('Das ist der 18. November');
 		const linkButton18 = document.createElement('button');
-		linkButton18.classList.add('gift-button'); // Klasse aus CSS hinzufügen
-		linkButton18.textContent = 'zum Rezept';
-		linkButton18.onclick = () => {
-			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/veganer_Weihnachtsbraten.pdf', '_blank');
+		linkButton9.classList.add('gift-button'); // Klasse aus CSS hinzufügen
+		linkButton9.textContent = 'zum Rezept';
+		linkButton9.style.position = 'absolute';
+		linkButton9.style.top = '50%';
+		linkButton9.style.left = '50%';
+		linkButton9.style.transform = 'translate(-50%, -50%)';
+		linkButton9.style.marginTop = '10px';
+		linkButton9.onclick = () => {
+			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/Rezept_Julscheidt.pdf', '_blank');
 		};
-		modal.appendChild(linkButton18);
+		modal.appendChild(linkButton9);
 	}
 
 

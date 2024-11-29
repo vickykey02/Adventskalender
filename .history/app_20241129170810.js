@@ -21,7 +21,7 @@ const days = {
 	"2024-11-15": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag15.png",
 	"2024-11-16": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag16.png",
 	"2024-11-17": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag17.png",
-	"2024-11-18": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag18.png",
+	"2024-11-18": "C:/Users/vicky/Documents/Projekte/Adventskalender/assets/Tag18.png",
 	"2024-11-19": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag19.png",
 	"2024-11-20": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag20.png",
 	"2024-11-21": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag21.png",
@@ -169,8 +169,8 @@ function showContent(content, dateString) {
 		const linkButton12 = document.createElement('button');
 		linkButton12.classList.add('gift-button'); // Klasse aus CSS hinzufügen
 		linkButton12.textContent = 'zur Anleitung';
-		//linkButton12.style.transform = 'translate(-50%, -50%)';
-		//linkButton12.style.marginTop = '10px';
+		linkButton12.style.transform = 'translate(-50%, -50%)';
+		linkButton12.style.marginTop = '10px';
 		linkButton12.onclick = () => {
 			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/Yule_Spell.pdf', '_blank');
 		};
@@ -244,24 +244,6 @@ function showContent(content, dateString) {
 		};
 		modal.appendChild(linkButton17);
 	}
-
-	const targetDate18 = new Date('2024-11-18');
-	const currentDate18 = new Date(dateString);
-	console.log(currentDate18.getTime(), targetDate18.getTime());
-	console.log(dateString, today);
-
-
-	if (currentDate18.getTime() === targetDate18.getTime()) {
-		console.log('Das ist der 18. November');
-		const linkButton18 = document.createElement('button');
-		linkButton18.classList.add('gift-button'); // Klasse aus CSS hinzufügen
-		linkButton18.textContent = 'zum Rezept';
-		linkButton18.onclick = () => {
-			window.open('https://github.com/vickykey02/Adventskalender/raw/main/assets/veganer_Weihnachtsbraten.pdf', '_blank');
-		};
-		modal.appendChild(linkButton18);
-	}
-
 
 	const targetDate19 = new Date('2024-11-19');
 	const currentDate19 = new Date(dateString);
