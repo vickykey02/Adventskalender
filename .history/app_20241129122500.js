@@ -222,7 +222,7 @@ function showContent(content, dateString) {
 		//linkButton7.style.marginTop = '';//statt 10px
 		linkButton19.classList.add('gift-button'); // Klasse aus CSS hinzufügen
 		linkButton19.onclick = () => {
-			window.open('https://www.goodgoodgood.co/articles/lgbtq-good-news', '_blank');
+			window.open('https://www.zeit.de/zett/politik/2019-01/diese-10-feministinnen-musst-du-kennen', '_blank');
 		};
 		modal.appendChild(linkButton19);
 	}
