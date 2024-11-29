@@ -38,11 +38,11 @@ h1 {
     position: relative;
 }
 .day.locked {
-    background: rgba(255, 0, 0, 0.8)/*#aaa*/;
+    background: #aaa;
     cursor: not-allowed;
 }
 .day.opened {
-    background: #89b489;
+    background: #668a66;
 }
 
 .button {
