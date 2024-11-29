@@ -76,7 +76,7 @@ function showContent(content, dateString) {
 	modal.style.zIndex = '1000';
 	//modal.style.maxHeight = '80%';
 	modal.style.overflowY = 'auto';*/
-	modal.style.position = 'fixed'; //ab hier neu von gpt
+	modal.style.position = 'fixed';
 	modal.style.top = '0';
 	modal.style.left = '0'; // Start bei 0
 	modal.style.width = '100vw'; // 100% der Viewport-Breite
@@ -86,7 +86,7 @@ function showContent(content, dateString) {
 	modal.style.justifyContent = 'center'; // Horizontale Zentrierung
 	modal.style.alignItems = 'center'; // Vertikale Zentrierung
 	modal.style.overflow = 'hidden'; // Verhindert Scrollen
-//bis hier
+
 
 	const img = document.createElement('img');
 	img.src = content;
