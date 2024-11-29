@@ -54,8 +54,8 @@ const doors = document.querySelectorAll('.day');
 
 doors.forEach(door => {
     door.addEventListener('click', () => {
-        if (!door.classList.contains('animating')) {
-            door.classList.add('animating'); // Startet die Animation
+        if (!door.classList.contains('day.animating')) {
+            door.classList.add('day.animating'); // Startet die Animation
         }
     });
 });

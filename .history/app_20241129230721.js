@@ -50,12 +50,12 @@ for (const dateString in days) {
     calendar.appendChild(day);
 }
 
-const doors = document.querySelectorAll('.day');
+const doors = document.querySelectorAll('.door');
 
 doors.forEach(door => {
     door.addEventListener('click', () => {
-        if (!door.classList.contains('animating')) {
-            door.classList.add('animating'); // Startet die Animation
+        if (!door.classList.contains('open')) {
+            door.classList.add('open'); // Startet die Animation
         }
     });
 });
