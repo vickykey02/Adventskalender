@@ -256,27 +256,7 @@ function showContent(content, dateString) {
 		'https://open.spotify.com/intl-de/track/5a1iz510sv2W9Dt1MvFd5R?si=af1f0e3027804731', //beginning to look
 		'https://open.spotify.com/intl-de/track/5hslUAKq9I9CG2bAulFkHN?si=049df4a679904cc4', //most wonderful time
 		'https://open.spotify.com/intl-de/track/2uFaJJtFpPDc5Pa95XzTvg?si=9717fae71e884f08', //let it snow
-		'https://open.spotify.com/intl-de/track/4xWXehhXrboBrvxXAqbAyi?si=3c4d4d0425514697', //Schneeflöckchen
-		'https://open.spotify.com/intl-de/track/2L9QLAhrvtP4EYg1lY0Tnw?si=46ab8e89731047c3', //Rudolph
-		'https://open.spotify.com/intl-de/track/2FRnf9qhLbvw8fu4IBXx78?si=2cd5362c6b2e41c0', //Last Christmas
-		'https://open.spotify.com/intl-de/track/1GjQLnGAfpv3rWW1K9Ll8p?si=9669020c80514418', //Winter Wonderland
-		'https://open.spotify.com/intl-de/track/0SvD6EdetxVtXei2JhkV4B?si=04d1141d44494ce4', //Wonderful Dream
-		'https://open.spotify.com/intl-de/track/7uoFMmxln0GPXQ0AcCBXRq?si=a965414de1b8495f', //Snowman
-		'https://open.spotify.com/intl-de/track/0eUHSIq91vjUZ9kCrrZCLm?si=3343fc21bb164c4f', //Kling Glöckchen
-		'https://open.spotify.com/intl-de/track/5ASM6Qjiav2xPe7gRkQMsQ?si=66814b82fbb7413b', //Sleigh Ride
-		'https://open.spotify.com/intl-de/track/3Z3QhZAZpqwZa1phsbQ3JZ?si=9c1a79912fd24680', //Driving Home
-		'https://open.spotify.com/intl-de/track/4uJ9zP4Qxt1sPWP0sz8tAx?si=558448ead2cc4b07', //Es ist ein Ros
-		'https://open.spotify.com/intl-de/track/7vbdSdW5YGowb3wBFLByGh?si=9462897e04914a17', //Band Aid
-		'https://open.spotify.com/intl-de/track/0bYg9bo50gSsH3LtXe2SQn?si=b767d47a96884c3b', //All I want
-		'https://open.spotify.com/intl-de/track/27RYrbL6S02LNVhDWVl38b?si=0d103ee8bd47473c', //Happy Xmas
-		'https://open.spotify.com/intl-de/track/23J6hx7gTaL24aWMUKnDsK?si=043a940528fd4310', //Tausend Sterne
-		'https://open.spotify.com/intl-de/track/5PuKlCjfEVIXl0ZBp5ZW9g?si=7739f990c04a42e8', //Holly Jolly Christmas
-		'https://open.spotify.com/intl-de/track/2FPfeYlrbSBR8PwCU0zaqq?si=0389fe9cc673402d', //Have yourself 
-		'https://open.spotify.com/intl-de/track/3j7Fv7GuiumnTX3QiFI52T?si=6e7d4ba854cf4a3a', //Maria Dornwald
-		'https://open.spotify.com/intl-de/track/298BugTAHrP8aYobnxsisS?si=21197d0cb685493d', //Christmas Town Elf
-		'https://open.spotify.com/intl-de/track/6AoXseJVabZFmKEYjQCXPS?si=1d60296b74f84566', //Born on this day
-		'https://open.spotify.com/intl-de/track/0QtJZpyfZF67QF32p41NXa?si=710717848f1846dc', //Thank God it's Christmas
-
+		'https://open.spotify.com/intl-de/track/2uFaJJtFpPDc5Pa95XzTvg?si=9717fae71e884f08', //Schneeflöckchen
 		// Add more song URLs here for each day
 	];
 	const dayIndex = new Date().getDate() - 1; // Get the current day index (0-based)

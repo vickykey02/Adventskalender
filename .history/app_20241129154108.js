@@ -273,9 +273,9 @@ function showContent(content, dateString) {
 		'https://open.spotify.com/intl-de/track/5PuKlCjfEVIXl0ZBp5ZW9g?si=7739f990c04a42e8', //Holly Jolly Christmas
 		'https://open.spotify.com/intl-de/track/2FPfeYlrbSBR8PwCU0zaqq?si=0389fe9cc673402d', //Have yourself 
 		'https://open.spotify.com/intl-de/track/3j7Fv7GuiumnTX3QiFI52T?si=6e7d4ba854cf4a3a', //Maria Dornwald
-		'https://open.spotify.com/intl-de/track/298BugTAHrP8aYobnxsisS?si=21197d0cb685493d', //Christmas Town Elf
-		'https://open.spotify.com/intl-de/track/6AoXseJVabZFmKEYjQCXPS?si=1d60296b74f84566', //Born on this day
-		'https://open.spotify.com/intl-de/track/0QtJZpyfZF67QF32p41NXa?si=710717848f1846dc', //Thank God it's Christmas
+		'https://open.spotify.com/intl-de/track/4xWXehhXrboBrvxXAqbAyi?si=3c4d4d0425514697', //Schneeflöckchen
+		'https://open.spotify.com/intl-de/track/4xWXehhXrboBrvxXAqbAyi?si=3c4d4d0425514697', //Schneeflöckchen
+		'https://open.spotify.com/intl-de/track/4xWXehhXrboBrvxXAqbAyi?si=3c4d4d0425514697', //Schneeflöckchen
 
 		// Add more song URLs here for each day
 	];

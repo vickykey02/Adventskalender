@@ -275,7 +275,7 @@ function showContent(content, dateString) {
 		'https://open.spotify.com/intl-de/track/3j7Fv7GuiumnTX3QiFI52T?si=6e7d4ba854cf4a3a', //Maria Dornwald
 		'https://open.spotify.com/intl-de/track/298BugTAHrP8aYobnxsisS?si=21197d0cb685493d', //Christmas Town Elf
 		'https://open.spotify.com/intl-de/track/6AoXseJVabZFmKEYjQCXPS?si=1d60296b74f84566', //Born on this day
-		'https://open.spotify.com/intl-de/track/0QtJZpyfZF67QF32p41NXa?si=710717848f1846dc', //Thank God it's Christmas
+		'https://open.spotify.com/intl-de/track/4xWXehhXrboBrvxXAqbAyi?si=3c4d4d0425514697', //Thank God it's Christmas
 
 		// Add more song URLs here for each day
 	];
