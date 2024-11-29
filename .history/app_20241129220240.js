@@ -307,8 +307,8 @@ function showContent(content, dateString) {
 	document.body.appendChild(modal);
 
 	//hier dann noch rein dass Element erscheint hinter dem sich Spotifysong verbirgt
-	const spotifyButton = document.createElement('gift-button');
-	spotifyButton.classList.add('gift-button');
+	const spotifyButton = document.createElement('button2');
+	spotifyButton.classList.add('button2');
 	const songs = [
 		'https://open.spotify.com/intl-de/track/0FDDUGqjWtiT7OfJHBkAbY?si=e612137ed790431f', //Vorfreude 
 		'https://open.spotify.com/intl-de/track/5a1iz510sv2W9Dt1MvFd5R?si=af1f0e3027804731', //beginning to look
@@ -339,7 +339,6 @@ function showContent(content, dateString) {
 	const songUrl = songs[dayIndex % songs.length]; // Cycle through songs if more than available days
 	spotifyButton.textContent = 'Song des Tages';
 	spotifyButton.style.right = '40%';
-	spotifyButton.style.backgroundColor = 'green';
 	spotifyButton.onclick = () => {
 		const spotifyIframe = document.createElement('iframe');
 		spotifyIframe.src = songUrl;
