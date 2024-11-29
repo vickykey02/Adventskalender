@@ -90,7 +90,7 @@ h1 {
 .button2::before, .button::after {
     content: '';
     position: absolute;
-    background: #ffffffad;
+    background: #fff;
 }
 .button2::before {
     width: 100%;
