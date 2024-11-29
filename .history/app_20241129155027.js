@@ -256,7 +256,7 @@ function showContent(content, dateString) {
 		'https://open.spotify.com/intl-de/track/5a1iz510sv2W9Dt1MvFd5R?si=af1f0e3027804731', //beginning to look
 		'https://open.spotify.com/intl-de/track/5hslUAKq9I9CG2bAulFkHN?si=049df4a679904cc4', //most wonderful time
 		'https://open.spotify.com/intl-de/track/2uFaJJtFpPDc5Pa95XzTvg?si=9717fae71e884f08', //let it snow
-		'https://open.spotify.com/intl-de/track/4xWXehhXrboBrvxXAqbAyi?si=3c4d4d0425514697', //Schneeflöckchen
+		//'https://open.spotify.com/intl-de/track/4xWXehhXrboBrvxXAqbAyi?si=3c4d4d0425514697', //Schneeflöckchen
 		'https://open.spotify.com/intl-de/track/2L9QLAhrvtP4EYg1lY0Tnw?si=46ab8e89731047c3', //Rudolph
 		'https://open.spotify.com/intl-de/track/2FRnf9qhLbvw8fu4IBXx78?si=2cd5362c6b2e41c0', //Last Christmas
 		'https://open.spotify.com/intl-de/track/1GjQLnGAfpv3rWW1K9Ll8p?si=9669020c80514418', //Winter Wonderland
@@ -283,13 +283,13 @@ function showContent(content, dateString) {
 	const songUrl = songs[dayIndex % songs.length]; // Cycle through songs if more than available days
 	spotifyButton.textContent = 'Song des Tages';
 	spotifyButton.onclick = () => {
-		//const spotifyIframe = document.createElement('iframe');
+		const spotifyIframe = document.createElement('iframe');
 		spotifyIframe.src = songUrl;
-		//spotifyIframe.width = '300';
-		//spotifyIframe.height = '80';
-		//spotifyIframe.frameBorder = '0';
+		spotifyIframe.width = '300';
+		spotifyIframe.height = '80';
+		spotifyIframe.frameBorder = '0';
 		spotifyIframe.allow = 'encrypted-media';
-		//document.body.appendChild(spotifyIframe);
+		document.body.appendChild(spotifyIframe);
 	};
 	//document.body.appendChild(spotifyButton);
 	modal.appendChild(spotifyButton);
