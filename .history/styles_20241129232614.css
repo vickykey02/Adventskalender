@@ -68,17 +68,7 @@ h1 {
     }
 }
 
-@keyframes closeDoor {
-    0% {
-        transform: scale(1) rotateY(180deg); /* Geöffneter Zustand */
-    }
-    50% {
-        transform: scale(1.2) rotateY(90deg); /* Dreht zurück */
-    }
-    100% {
-        transform: scale(1) rotateY(0deg); /* Vollständig geschlossen */
-    }
-}
+
 
 .button {
     display: inline-block;

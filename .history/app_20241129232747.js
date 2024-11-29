@@ -60,27 +60,6 @@ const doors = document.querySelectorAll('.day');
     });
 });*/
 
-doors.forEach(door => {
-    door.addEventListener('click', () => {
-        if (!door.classList.contains('locked') && !door.classList.contains('animating')) {
-            // Tür öffnen
-            door.classList.add('animating'); // Startet das Öffnen
-            setTimeout(() => {
-                door.classList.remove('animating'); // Animation entfernen
-                door.classList.add('opened'); // Markiert Tür als geöffnet
-
-                // Tür nach 3 Sekunden schließen
-                setTimeout(() => {
-                    door.classList.remove('opened'); // Entfernt "geöffnet"-Zustand
-                    door.classList.add('closing'); // Startet das Schließen
-                    setTimeout(() => {
-                        door.classList.remove('closing'); // Entfernt Schließen-Klasse
-                    }, 600); // Zeit entspricht der Schließ-Animation
-                }, 3000); // Nach 3 Sekunden
-            }, 600); // Zeit entspricht der Öffnungsanimation
-        }
-    });
-});
 
 
 
