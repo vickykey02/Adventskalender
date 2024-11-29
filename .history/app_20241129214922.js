@@ -92,8 +92,8 @@ function showContent(content, dateString) {
 
 	const img = document.createElement('img');
 	img.src = content;
-	img.style.maxWidth = '100%'; //neu wieder rein
-	img.style.height = '100%'; //neu wieder rein
+	//img.style.maxWidth = '100%';
+	//img.style.height = 'auto';
 	img.style.maxWidth = 'auto'; // Begrenzung auf 90% der Viewport-Breite //statt 90vw
 	img.style.maxHeight = 'auto'; // Begrenzung auf 90% der Viewport-Höhe //statt 90vh
 	img.style.objectFit = 'contain'; // Bild wird skaliert, um vollständig sichtbar zu sein
