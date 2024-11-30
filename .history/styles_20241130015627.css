@@ -19,19 +19,6 @@ h1 {
     max-width: 600px;
     margin: auto;
 }
-
-@media (min-width: 768px) {
-    .calendar {
-        max-width: 800px; /* Ändere die maximale Breite für größere Bildschirme */
-    }
-}
-
-@media (min-width: 1024px) {
-    .calendar {
-        max-width: 1000px; /* Ändere die maximale Breite für noch größere Bildschirme */
-    }
-}
-
 .day {
     background-color: #ad1426(255, 0, 0, 0.8); /* Weihnachtliches Rot neu ab hier */
     color: white; /* Textfarbe */
