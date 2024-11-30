@@ -144,7 +144,7 @@ function showContent(content, dateString) {
 	};
 	modal.appendChild(closeButton);
 
-	const targetDate3 = new Date('2024-12-03');
+	const targetDate3 = new Date('2024-11-03');
 	const currentDate3 = new Date(dateString);
 	console.log(currentDate3.getTime(), targetDate3.getTime());
 	console.log(dateString, today);

@@ -14,10 +14,10 @@ if ('serviceWorker' in navigator) { //neu ab hier PWA
 
 // Inhalte für die Tage
 const days = {
-    "2024-12-01": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag1.png",
-	"2024-12-02": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag2.png",
-	"2024-12-03": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag3.png",
-	"2024-12-04": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag4.png",
+    "2024-11-01": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag1.png",
+	"2024-11-02": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag2.png",
+	"2024-11-03": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag3.png",
+	"2024-11-04": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag4.png",
 	"2024-12-05": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag5.png",
 	"2024-12-06": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag6.png",
 	"2024-12-07": "https://github.com/vickykey02/Adventskalender/raw/main/assets/Tag7.png",
@@ -144,7 +144,7 @@ function showContent(content, dateString) {
 	};
 	modal.appendChild(closeButton);
 
-	const targetDate3 = new Date('2024-12-03');
+	const targetDate3 = new Date('2024-11-03');
 	const currentDate3 = new Date(dateString);
 	console.log(currentDate3.getTime(), targetDate3.getTime());
 	console.log(dateString, today);
