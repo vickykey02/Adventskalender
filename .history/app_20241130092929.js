@@ -113,11 +113,6 @@ function showContent(content, dateString) {
 	modal.style.justifyContent = 'center'; // Horizontale Zentrierung
 	modal.style.alignItems = 'center'; // Vertikale Zentrierung
 	//modal.style.overflow = 'hidden'; // Verhindert Scrollen
-	modal.style.opacity = '0'; // Initiale Transparenz
-	modal.style.transition = 'opacity 3s'; // Animiere die Sichtbarkeit
-	setTimeout(() => {
-		modal.style.opacity = '1'; // Volle Sichtbarkeit
-	}, 100);
 //bis hier
 
 	const img = document.createElement('img');
