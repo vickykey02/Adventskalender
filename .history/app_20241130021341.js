@@ -112,7 +112,7 @@ function showContent(content, dateString) {
 	//modal.style.display = 'flex';
 	modal.style.justifyContent = 'center'; // Horizontale Zentrierung
 	modal.style.alignItems = 'center'; // Vertikale Zentrierung
-	//modal.style.overflow = 'hidden'; // Verhindert Scrollen
+	modal.style.overflow = 'hidden'; // Verhindert Scrollen
 //bis hier
 
 	const img = document.createElement('img');
