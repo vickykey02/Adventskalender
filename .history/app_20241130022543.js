@@ -384,7 +384,7 @@ function showContent(content, dateString) {
 	const songUrl = songs[dayIndex % songs.length]; // Cycle through songs if more than available days
 	spotifyButton.textContent = 'Song des Tages';
 	spotifyButton.style.position = 'absolute';
-	spotifyButton.style.right = '0';
+	spotifyButton.style.right = '10';
 	spotifyButton.style.top = '0';
 	spotifyButton.style.backgroundColor = 'green';
 	spotifyButton.onclick = () => {
